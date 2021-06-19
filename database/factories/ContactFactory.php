@@ -23,6 +23,8 @@ class ContactFactory extends Factory
     {
         return [
             //
+            'name' => $this->faker->name,
+            'telpon' => $this->faker->e164PhoneNumber
         ];
     }
 }
